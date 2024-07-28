@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button type="button" onclick="loadDoc(easy5, 'heart')">Puzzle 1</button>
+    <button type="button" onclick="loadDoc(easy5, 'face')">Puzzle 2</button>
+    <button type="button" onclick="loadDoc(easy5, 'letterr')">Puzzle 3</button>
+    <button type="button" onclick="loadDoc(easy10, 'fish')">Puzzle 4</button>
+    <button type="button" onclick="loadDoc(easy10, 'duck')">Puzzle 5</button>
+    <button type="button" onclick="loadDoc(easyDW, 'doublewide')">Puzzle 6</button>
+    <button type="button" onclick="loadDoc(medium15, 'mouse')">Puzzle 7</button>
+    <button type="button" onclick="loadDoc(easy15, 'castle')">Puzzle 8</button>
+    <div class="wrapper" id="wrapper">
+        <div id="yhints" class="yhints">
+        </div>
+        <div id="xhints" class="xhints">
+        </div>
+        <div id="gameboard">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
