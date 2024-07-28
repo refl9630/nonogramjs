@@ -4,3 +4,4 @@ Proof of concept based on the classic puzzle game.
 Quebra-cabeças nonograma para navegador.
 
 
+https://ngpuzzlejs.netlify.app/
